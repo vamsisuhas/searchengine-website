@@ -1,0 +1,34 @@
+.search__input{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    padding: 10px 20px;
+    border-radius: 999px;
+    width: 75vw;
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 560px;
+    margin-bottom: 200px;
+}
+
+.search__input > input{
+    flex:1;
+    border:none;
+}
+
+.search__input > input:focus {
+    outline-width: 0;
+}
+
+.search__buttons{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    bottom:180px;
+    border-radius: 8px;
+}
+
+.search__buttonsHidden{
+    display: none !important;
+}
+
